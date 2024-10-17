@@ -1,0 +1,26 @@
+body{
+    background: url(foto/logo.jpg);
+    background-size: cover;
+}
+
+
+
+
+h1{
+    color: red;
+    font-size: 20px;
+}
+p{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+.box{
+    padding: 50px;
+    margin: 20px;
+    border: 10px solid black;
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+}
