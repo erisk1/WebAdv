@@ -1,0 +1,35 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+    border-left: 5px solid green;
+    background-color: #f1f1f1;
+    font-size: 20px;
+    
+}
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid gray;
+}
+/*ol{
+    list-style-type: upper-roman;
+}*/
+ol{
+    list-style-type: lower-alpha;
+    background: #ffeeee;
+}
+ol li{
+    background: #ffe5e5;
+    padding: 10px;
+    margin-left: 30px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    text-align: left;
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: #eae2e2;
+}
