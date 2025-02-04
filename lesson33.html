@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson33</title>
+</head>
+<body>
+    <form method="post" onsubmit="return validation();">
+        <div class="name-container">
+            <label for="name" id="name_label"></label>
+            <input type="text" name="name" id="name">
+            <span id="name_error">please enter a valid name</span>
+        </div>
+        <br>
+        <div class="age-container">
+            <label for="name" id="age_label">age:</label>
+            <input type="text" name="age" id="age">
+        </div>
+        <button type="submit" name="submit">send</button>
+    </form>
+
+    <script src="javascript/lesson33.js"></script>
+</body>
+</html>
