@@ -1,0 +1,14 @@
+.slide {
+    width: 100%;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    padding: 20px;
+}
+.next{
+    right: 0;
+}
+.prev{
+    background-color: rgba(0, 0, 0, 0.8);
+}
