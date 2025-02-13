@@ -21,15 +21,23 @@
 // }
 // showslide(1)''
 
-function search(){
-    var input, filter, ul, li, a, i, textValue;
-    input = document.getElementById('myInput');
-    filter = input.ariaValueMax.toLocaleUpperCase();
-    ul = document.getElementById('mylist');
-    li = ul.getElementsByTagName('li');
-    for(i = 0; i< li.length; i++){
-        a = li[i];
-        textValue = a.textContent;
+// function search(){
+//     var input, filter, ul, li, a, i, textValue;
+//     input = document.getElementById('myInput');
+//     filter = input.ariaValueMax.toLocaleUpperCase();
+//     ul = document.getElementById('mylist');
+//     li = ul.getElementsByTagName('li');
+//     for(i = 0; i< li.length; i++){
+//         a = li[i];
+//         textValue = a.textContent;
         
+//     }
+// }
+function openmenu(){
+    var menu = document.getElementById('mylinks');
+    if(menu.style.display == 'block'){
+        menu.style.display = 'none';
+    }else{
+        menu.style.display = 'block';
     }
 }
